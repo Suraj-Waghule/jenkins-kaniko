@@ -5,8 +5,8 @@ pipeline {
 kind: Pod
 spec:
   containers:
-  - name: smarttech-ci
-    image: python:slim
+  - name: smarttech-c
+    image: python:slimi
     command:
     - cat
     tty: true
