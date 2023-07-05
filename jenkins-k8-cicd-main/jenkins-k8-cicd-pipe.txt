@@ -6,7 +6,7 @@ kind: Pod
 spec:
   containers:
   - name: smarttech-ci
-    image: python:slimi
+    image: python:slim
     command:
     - cat
     tty: true
