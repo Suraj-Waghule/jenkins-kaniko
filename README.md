@@ -12,6 +12,7 @@
 ##### Jenkins Setup on EKS Cluster
 ```jenkins-eks
 helm repo add jenkinsci https://charts.jenkins.io
+helm repo list
 helm repo update
 helm install jenkins --namespace jenkins --create-namespace jenkinsci/jenkins
 
